@@ -106,6 +106,10 @@
                     "2": {
                       "title": "Utilisation d'attributs",
                       "id": 36
+                    },
+                    "3": {
+                      "title": "Utilisation possible d'un compte générique",
+                      "id": 40
                     }
                   }
                 },
@@ -120,6 +124,10 @@
                     "2": {
                       "title": "Utilisation d'une table de fédération",
                       "id": 38
+                    },
+                    "3": {
+                      "title": "Utilisation possible des attributs",
+                      "id": 39
                     }
                   }
                 }
