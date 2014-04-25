@@ -1,0 +1,179 @@
+{
+  "title": "Fédération",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "SAML",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Mode artifact",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Pas utilisé : nécessité d'un canal direct entre les partenaires",
+              "id": 9
+            }
+          }
+        },
+        "2": {
+          "title": "Mode POST : regroupe le POST et le HTTP-REDIRECT",
+          "id": 8,
+          "ideas": {
+            "3": {
+              "title": "Rôles",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "SP",
+                  "id": 11,
+                  "ideas": {
+                    "1": {
+                      "title": "Configuration d'un schéma SAML v2",
+                      "id": 12
+                    },
+                    "2": {
+                      "title": "Configuration d'un partenaire SAML",
+                      "id": 13,
+                      "ideas": {
+                        "1": {
+                          "title": "Possibilité d'utiliser les metadatas fournies par l'IdP pour un pré-remplissage de certains champs",
+                          "id": 19
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "IdP",
+                  "id": 15,
+                  "ideas": {
+                    "1": {
+                      "title": "Configuration d'un partenaire SAML",
+                      "id": 17,
+                      "ideas": {
+                        "1": {
+                          "title": "Possibilité d'utiliser les metadatas fournies par le SP pour un pré-remplissage de certains champs",
+                          "id": 18
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "Types de fédération",
+              "id": 28,
+              "ideas": {
+                "1": {
+                  "title": "Aucune",
+                  "id": 29,
+                  "ideas": {
+                    "1": {
+                      "title": "Equivalent SAML v1",
+                      "id": 32
+                    },
+                    "2": {
+                      "title": "Correspondance entre les annuaires des partenaires",
+                      "id": 33
+                    },
+                    "3": {
+                      "title": "Identifiant utilisateur fourni dans l'assertion",
+                      "id": 34
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Temporaire",
+                  "id": 30,
+                  "ideas": {
+                    "1": {
+                      "title": "Identifiant opaque",
+                      "id": 35
+                    },
+                    "2": {
+                      "title": "Utilisation d'attributs",
+                      "id": 36
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Permanente",
+                  "id": 31,
+                  "ideas": {
+                    "1": {
+                      "title": "Identifiant opaque",
+                      "id": 37
+                    },
+                    "2": {
+                      "title": "Utilisation d'une table de fédération",
+                      "id": 38
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#90EE90"
+        }
+      }
+    },
+    "-10": {
+      "title": "WS Federation",
+      "id": 5,
+      "attr": {
+        "style": {
+          "background": "#90EE90"
+        }
+      }
+    },
+    "-20": {
+      "title": "OAuth 2",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "IdP",
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "Configuration d'un Partenaire OAuth 2",
+              "id": 23
+            }
+          }
+        },
+        "2": {
+          "title": "SP",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "Configuration d'un schéma OAuth 2 associé au partenaire (Facebook, MS Live, etc.)",
+              "id": 22
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#90EE90"
+        }
+      }
+    }
+  },
+  "links": []
+}
