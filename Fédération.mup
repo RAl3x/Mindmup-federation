@@ -72,62 +72,71 @@
                   }
                 }
               }
-            }
-          }
-        },
-        "3": {
-          "title": "Types de fédération",
-          "id": 28,
-          "ideas": {
-            "1": {
-              "title": "Aucune",
-              "id": 29,
+            },
+            "4": {
+              "title": "Types de fédération",
+              "id": 28,
               "ideas": {
                 "1": {
-                  "title": "Equivalent SAML v1",
-                  "id": 32
+                  "title": "Aucune",
+                  "id": 29,
+                  "ideas": {
+                    "1": {
+                      "title": "Equivalent SAML v1",
+                      "id": 32
+                    },
+                    "2": {
+                      "title": "Correspondance entre les annuaires des partenaires",
+                      "id": 33
+                    },
+                    "3": {
+                      "title": "Identifiant utilisateur fourni dans l'assertion",
+                      "id": 34
+                    },
+                    "4": {
+                      "title": "CCCCC",
+                      "id": 41
+                    }
+                  }
                 },
                 "2": {
-                  "title": "Correspondance entre les annuaires des partenaires",
-                  "id": 33
+                  "title": "Temporaire",
+                  "id": 30,
+                  "ideas": {
+                    "1": {
+                      "title": "Identifiant opaque",
+                      "id": 35
+                    },
+                    "2": {
+                      "title": "Utilisation d'attributs",
+                      "id": 36
+                    },
+                    "3": {
+                      "title": "Utilisation possible d'un compte générique",
+                      "id": 40
+                    }
+                  }
                 },
                 "3": {
-                  "title": "Identifiant utilisateur fourni dans l'assertion",
-                  "id": 34
-                }
-              }
-            },
-            "2": {
-              "title": "Temporaire",
-              "id": 30,
-              "ideas": {
-                "1": {
-                  "title": "Identifiant opaque",
-                  "id": 35
-                },
-                "2": {
-                  "title": "Utilisation d'attributs",
-                  "id": 36
-                }
-              }
-            },
-            "3": {
-              "title": "Permanente",
-              "id": 31,
-              "ideas": {
-                "1": {
-                  "title": "Identifiant opaque",
-                  "id": 37
-                },
-                "2": {
-                  "title": "Utilisation d'une table de fédération",
-                  "id": 38
+                  "title": "Permanente",
+                  "id": 31,
+                  "ideas": {
+                    "1": {
+                      "title": "Identifiant opaque",
+                      "id": 37
+                    },
+                    "2": {
+                      "title": "Utilisation d'une table de fédération",
+                      "id": 38
+                    },
+                    "3": {
+                      "title": "Utilisation possible des attributs",
+                      "id": 39
+                    }
+                  }
                 }
               }
             }
-          },
-          "attr": {
-            "style": {}
           }
         }
       },
